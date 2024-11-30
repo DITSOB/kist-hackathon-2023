@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>FlowPal</title>
+    <!-- <link rel="stylesheet" href="/tracker/style.css" /> -->
+    <link rel="stylesheet" href="/source-code/style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+          <img src="/assets/logo.png" class="logo">
+          <div class="header-text">
+              <h1>Flow<span class="span">Pal</span></h1>
+          </div>
+      </div>
+      <ul>
+          <li><a href="/source-code/index.html">GO BACK TO HOME</a></li>
+          <!-- <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#blogs">BLOGS</a></li> -->
+          <!-- <li><a href="#">LOGIN</a></li> -->
+          <!-- <li><a href="#contact">CONTACT US</a></li><br> -->
+      </ul>
+  </nav>
+    <div class="tracker-body">
+      <h1><span id="span1">Period</span> Tracker</h1>
+      <div class="line">
+        <span class="line2"></span><br>
+        <span class="line3"></span><br>
+      </div>
+      <h1>Period <span id="span1">Calculator</span></h1>
+
+      <label for="lastPeriodDate">Enter The Date of Your Last Period:</label>
+      <input type="date" id="lastPeriodDate" />
+
+      <button onclick="calculatePeriod()">Calculate</button><br>
+      <button onclick="checkPreviousPeriod()">Check Previous</button><br />
+      <p id="Your_Result"></p>
+      <script src="/web-pages/app.js" defer></script>
+    </div>
+    <div>
+    <script>
+      function reDirectToHome(){
+        window.location.href = '/source-code/index.html';
+      }
+    </script>
+  </body>
+</html>

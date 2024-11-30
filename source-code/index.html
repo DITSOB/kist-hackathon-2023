@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowPal</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+    <link rel="stylesheet" href="/source-code/style.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <!-- <div class="container">
+            <img src="/assets/logo.png" class="logo">
+            <div class="header-text">
+                <h1>Flow<span class="span">Pal</span></h1>
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BLOGS</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div> -->
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img src="/assets/logo.png" class="logo">
+            <div class="header-text">
+                <h1>Flow<span class="span">Pal</span></h1>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#blogs">BLOGS</a></li>
+            <!-- <li><a href="#">LOGIN</a></li> -->
+            <li><a href="#contact">Notify</a></li><br>
+        </ul>
+    </nav>
+    <section id="header">
+        <div class="body-text">
+            <br><p><h1>Empowering<br>
+                Your<br>
+                Menstrual Health<br>
+                Journey</h1>
+            </p>
+            <span class="square"></span><br>
+            <button class="common-btn" onclick="blog2()">Read More</button>
+            <div class="line">
+                <span class="line1"></span><br>
+                <span class="line2"></span><br>
+                <span class="line3"></span><br>
+            </div>
+        </div>
+    </section>
+    <!-- <nav id="sideNav"> -->
+    <!-- </nav> --->
+    <!-- <img src="/assets/" id="menu-btn"> -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="/assets/about-us.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>ABOUT US</h1>
+                <span class="square"></span><br>
+                <p>FlowPal is introduced to help women and teenage girls to understand and track their menstrual cycle. By providing a visual representation of the cycle, 
+                    it offers valuable insights into the regularity, duration patterns of menstruation and also clears the misunderstanding that prevails in our society.
+                </p><br>
+                <button class="common-btn" onclick="reDirectToAbout()">Read More</button><br>
+                <div class="line">
+                    <span class="line1"></span><br>
+                    <span class="line2"></span><br>
+                    <span class="line3"></span><br>
+                </div>
+                <h2>“Consider a very natural process, menstruation, and how the association has been created in which this process is dirty, degrading."</h2><br>
+                <h3>— Frederick Lenz</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="services-row">
+            <div class="services-col">
+                <img src="/assets/period-tracker.png">
+                <h4>Period Tracking</h4>
+                <p>Track Your Period By Just Giving Your Last Period Date</p>
+            </div>
+            <div class="services-col">
+                <img src="/assets/notification.png">
+                <h4>Notification</h4>
+                <p>Be Notified When Your Approximated Date Is Coming Near</p>
+            </div>
+            <div class="services-col">
+                <img src="/assets/consult.png">
+                <h4>Expert's Consult</h4>
+                <p>Consut With Expert Gynilogysts</p>
+            </div>
+        </div>
+        <div class="services-btn">
+            <button class="common-btn" onclick="reDirectToTracker()">Begin Tracking</button>
+        </div>
+    </section>
+
+    <!-- Blogs-->
+    <section id="blogs">
+        <div class="container blogs-row">
+            <div class="blogs-left-col">
+                <div class="blogs-text">
+                    <h1>Explore Our Top <br>Blogs</h1>
+                    <span class="square"></span><br>
+                    <p><button class="common-btn" id="blog1" onclick="blog1()">Menstural Wellness: Insights and Remedies</button><br> 
+                        <button class="common-btn" id="blog2" onclick="blog2()">Empowering Your Menstural Wellness With Mindfulness</button><br> 
+                        <button class="common-btn" id="blog3" onclick="blog3()">Demsystifying Menstural Myths</button></p>
+                    <!-- <button class="common-btn">Explore More</button> -->
+                    <div class="line">
+                        <span class="line1"></span><br>
+                        <span class="line2"></span><br>
+                        <span class="line3"></span><br>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs-right-col">
+                <img src="/assets/thinking.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <h1>Send Reminder</h1><br>
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Enter Name">
+                    <input type="email" id="email" name="email" placeholder="Enter Email">
+                    <!-- <input type="text" id="message" name="Message" placeholder="Enter Enquiries"> -->
+                    <div class="btn-box">
+                        <button class="common-btn" id="signupButton">Submit</button>
+                    </div>
+                </form>
+                <div class="line">
+                    <span class="line1"></span><br>
+                    <span class="line2"></span><br>
+                    <span class="line3"></span><br>
+                </div>
+            </div>
+            <div class="contact-right-col">
+                <img src="/assets/images.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <!-- <p>Left Column</p> -->
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Product</h4>
+                        <small>Our Plan</small><br>
+                        <small>Free Trail</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>About Us</h4>
+                        <small>Request Demo</small><br>
+                        <small>FAQs</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Services</small><br>
+                        <small>Contact Us</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <!-- <p>Right Column</p> -->
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>support@flowpal.com</small><br>
+                        <small>copyright 2023 ZenNest</small>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="/assets/logo.png">
+                        <button class="common-btn">English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script>
+        var menubtn = document.getElementById("menu-btn");
+        var sideNav = document.getElementById("sideNav");
+        sideNav.style.right = "-250px";
+        menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            } else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script> -->
+
+    <!-- Go To Top -->
+    <!-- <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"><img src="/assets/go-top.png"></i>
+    </a> -->
+    <script src="/source-code/main.js"></script>
+    <script>
+        function signup() {
+      // Fetch input values
+            var name = document.getElementById('name').value;
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+      // Perform client-side validation (you should also do server-side validation)
+            if (name === '' || username === '' || email === '' || password === '') {
+                alert('Please fill in all fields');
+                return;
+            }
+
+      // You can perform additional validation here if needed
+
+      // Display a success message (in a real scenario, you would send data to the server)
+            alert('Sign up successful!\nUsername: ' + username + '\nEmail: ' + email);
+
+      // Clear the form
+            document.getElementById('signupForm').reset();
+        }
+        function reDirectToAbout(){
+            window.location.href = '/web-pages/about-us.html';
+        }
+        function reDirectToTracker(){
+            window.location.href = '/web-pages/tracker.html';
+        }
+        function blog1(){
+            window.location.href = '/web-pages/blog1.html';
+        }
+        function blog2(){
+            window.location.href = '/web-pages/blog2.html';
+        }
+        function blog3(){
+            window.location.href = '/web-pages/blog3.html';
+        }
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="/source-code/index.js" ></script>
+</body>
+</html>
